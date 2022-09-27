@@ -1,5 +1,7 @@
 # fuzzfaker
-Make fuzzing great again using `reflect.MakeFunc`
+Fuzzing is a great and powerfull tool, however API isn't that friendly to end user.
+
+Intention: Make fuzzing great again using `reflect.MakeFunc`
 
 
 # TODO:
