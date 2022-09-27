@@ -17,7 +17,7 @@ Intention: Make fuzzing great again using `reflect.MakeFunc`
   
   }
 
-  ff := fuzfake.New(Input) // recursively iterate over fields, to collect all basic types (and additional config)
+  ff := fuzz.New(Input) // recursively iterate over fields, to collect all basic types (and additional config)
 
 	f.Add(ff.Seed()) // define basic type arguments for each field. Optionally passing actual seed values.
 
